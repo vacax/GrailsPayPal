@@ -28,3 +28,14 @@
 
 # "temporary" build files
 /target
+
+# Vaadin
+vaadin-sass-temp/
+web-app/WEB-INF/classes
+web-app/VAADIN/gwt-unitCache/
+web-app/VAADIN/widgetsets/
+
+#Intellij
+.idea/
+*.iml
+*.iws
