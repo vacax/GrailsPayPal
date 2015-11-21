@@ -15,7 +15,7 @@
 <div class="jumbotron">
     <h1>Demostración PayPal</h1>
     <p>
-        Permite utilizar demostrar la integración de Paypal en nuestros proyecto de una manera sencilla.
+        Permite demostrar la integración de Paypal en nuestros proyecto de una manera sencilla.
         En este punto permitimos realizar las siguientes tareas:
     <dl>
         <dt>1) Formulario de compra</dt>
