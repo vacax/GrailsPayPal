@@ -12,6 +12,7 @@ import com.vaadin.ui.TextField
 import com.vaadin.ui.UI
 import com.vaadin.ui.VerticalLayout
 import edu.pucmm.ia.grailspaypa.domains.Parametro
+import edu.pucmm.ia.grailspaypal.services.ReglasNegocioService
 import org.vaadin.risto.formsender.FormSender
 import org.vaadin.risto.formsender.widgetset.client.shared.Method
 
@@ -26,7 +27,7 @@ class MainUI extends UI {
     @Override
     protected void init(VaadinRequest vaadinRequest) {
 
-        String vendedor=Parametro.findByCodigo(Parametro.CUENTA_NEGOCIO_PAYPAL).valor;
+        String vendedor=Grails.get(ReglasNegocioService).cuentaNegocioPaypal();
 
         VerticalLayout layout = new VerticalLayout()
 
